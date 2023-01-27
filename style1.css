@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(211, 177, 198);
+    
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+     
+    }
+    *{
+      box-sizing:border-box
+    }
+   
+    li  {
+      color: black;
+      text-align: center;
+      
+      text-decoration: none;
+    }
+    a{
+    text-decoration: none;
+    color: inherit;
+   }
+    .logo img {
+      width: 100px;
+      border-right: 1px solid #bbb;
+  }
+  
+  .parent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      width: 100%;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .parent img{
+      width: 240px;
+      object-fit: cover;
+      height: 230px;
+      
+ }
+  .child{
+      text-align: center;
+      width: 250px;
+      border: 3px solid #ccc;
+      
+     
+   }
+   .footer_area{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      flex-wrap: wrap;
+      font-size: 20px;
+      margin-bottom: 50px;
+  
+  }
+  .footer_copyright{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      gap: 50px;
+      
+  }
+  .footer_title{
+    font-size: 30px;
+  }
+  footer{
+    background-color:pink;
+    color:black
+  }
+  .footer_list a{
+    color:black ;
+  }
+  .btn{
+      justify-content: center;
+      
+  }
+  .menu{
+    display: flex;
+    margin-bottom: 150px;
+  }
+  .nav{
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+   
+  }
+  .mybrand{
+    justify-self: flex-end;
+  }
+  .menulist{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: pink;
+    align-items: center;
+    font-size: 25px;
+    
+}
+  .content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+  }
+  .leftmenu{
+    width: 30%;
+ }
+  .column1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    background: pink;
+    color: black;
+    border: none;
+    margin: 10%;
+    text-align: start;
+  }
+  .logotext{
+      font-family: 'Pacifico', cursive;
+      font-weight: bold;
+      border-radius: 20px 40px 20px 40px;
+      color: black;
+      font-style: italic;
+      
+  }
+  .column2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    background: pink;
+    color: black;
+    border: none;
+    margin: 10%;
+    text-align: start;
+  
+  }
+  * {
+    box-sizing: border-box;
+  }
+   
+  legend{
+    font-size: 25px;
+    font-style: italic;
+    
+  }
+  h3{
+    font-size: 25px;
+  }
+  .basket{
+    padding-right: 10px;
+    position: relative;
+    display: flex;
+  }
+  .cartIcon{
+    position: absolute;
+    right: 0;
+    top:-70%;
+    font-size: 15px;
+    
+ }
+ main{
+    margin: 10px
+ }
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
